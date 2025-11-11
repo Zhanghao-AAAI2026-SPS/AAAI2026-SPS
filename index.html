@@ -306,6 +306,22 @@
   </div>
 </section>
 
+<!-- Teaser Image-->
+<section class="hero teaser">
+    <div class="container is-max-desktop">
+        <div class="hero-body">
+            <img src="static/images/xcompress.png" alt="An overview of our method"/>
+            <h2 class="subtitle has-text-centered">
+Overview of the xCompress framework. Retrieved passages are first compressed into summaries. An adaptive norm-guided filtering mechanism determines whether additional test-time sampling is necessary. If required, multiple summaries
+are sampled from the compressor LLM and evaluated using the Spectrum Projection Score (SPS). These summaries are first
+embedded via max-pooling, then projected onto the reader’s principal subspace of its parameter. The summary with the lowest
+SPS is selected as input to the reader; otherwise, the initial summary is used directly for answer generation.
+            </h2>
+        </div>
+    </div>
+</section>
+<!-- End teaser Image -->
+
 <!-- Paper abstract -->
 <section class="section hero is-light">
   <div class="container is-max-desktop">
@@ -322,48 +338,6 @@
   </div>
 </section>
 <!-- End paper abstract -->
-
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
 
 
 
